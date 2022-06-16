@@ -6,3 +6,26 @@
   max-width: 150px;
   max-height: auto;
 }
+
+.footer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 0px;
+  padding: 5px;
+  width: 100%;
+  border-top: solid;
+  border-color: lightgrey;
+  background-color: #f1f1f1;
+  border-width: 1px;
+}
+
+.github, .linkedin {
+  width: auto;
+  height: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
