@@ -18,7 +18,7 @@ function Projects(props) {
     return projects.map((project) => (
       <div className='projects'>
         <h1>{project.name}</h1>
-        <img src={project.image} />
+        <img class="proj-img" src={project.image} />
         <a href={project.git}>
           <button>Github</button>
         </a>
@@ -29,7 +29,7 @@ function Projects(props) {
     ))
   }
 
-    return projects ? loaded() : <h1>Please wait...</h1>
+    return projects ? loaded() : <h1>...</h1>
   }
   
   export default Projects;

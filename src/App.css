@@ -2,9 +2,24 @@
   text-align: center;
 }
 
-.projects img {
-  max-width: 150px;
-  max-height: auto;
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+.proj-img {
+  width: 275px;
+  height: 250px;
+  object-fit: cover;
+  margin: auto;
 }
 
 .footer {
@@ -16,6 +31,7 @@
   margin-bottom: 0px;
   padding: 5px;
   width: 100%;
+  height: 50px;
   border-top: solid;
   border-color: lightgrey;
   background-color: #f1f1f1;
