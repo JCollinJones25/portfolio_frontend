@@ -1,9 +1,7 @@
-import { Route, Routes } from "react-router-dom";
 import './App.css';
-import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
-import About from "./components/About";;
+import About from "./components/About";
 
 function App() {
 
@@ -11,9 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <About/>
-      <Projects/>
+      <About URL={URL}/>
+      <Projects URL={URL}/>
       <Footer />
     </div>
   );
