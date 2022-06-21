@@ -1,8 +1,9 @@
 import './App.css';
 import About from "./components/About";
 import Projects from "./components/Projects";
-import Stack from "./components/Stack"
-import Background from "./components/Background"
+import Stack from "./components/Stack";
+import Background from "./components/Background";
+import Recommendations from "./components/Recommendations";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -20,6 +21,8 @@ const App = () => {
       <Stack />
       <h2>What I've Done</h2>
       <Background />
+      <h2>Recommendations</h2>
+      <Recommendations />
       <Footer />
     </div>
   );
