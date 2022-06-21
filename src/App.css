@@ -233,9 +233,9 @@ li {
   border: solid;
   border-radius: 15px;
   border-color: lightgrey;
+  border-width: 0.5px;
   padding: 10px;
   background-color: white;
-  border-width: 0.5px;
 }
 
 .experience:hover {
@@ -246,6 +246,29 @@ li {
 
 .experience p {
   margin-top: 10px;
+}
+
+.recommendations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.rec {
+  width: 65%;
+  height: auto;
+  margin: 15px;
+  border-radius: 15px;
+  border: solid;
+  border-color: lightgray;
+  border-width: 0.5px;
+}
+
+.rec:hover {
+  border-color: var(--green);
+  border-width: 1px;
 }
 
 .footer {
