@@ -59,11 +59,14 @@ html,body
   border-color: lightgrey;
   padding: 20px;
   font-size: 20px;
+  background-color: white;
+  border-width: 0.5px;
 }
 
 .bio:hover {
   border-color: var(--green);
   color: var(--blue);
+  border-width: 1px;
 }
 
 .projects {
@@ -87,11 +90,14 @@ html,body
   border-radius: 15px;
   border-color: lightgrey;
   padding: 5px;
+  background-color: white;
+  border-width: 0.5px;
 }
 
 .project:hover {
   border-color: var(--green);
   color: var(--blue);
+  border-width: 1px;
 }
 
 .proj-img-container {
@@ -196,11 +202,14 @@ button:hover {
   border-radius: 15px;
   border-color: lightgrey;
   padding: 5px;
+  background-color: white;
+  border-width: 0.5px;
 }
 
 .technologies:hover {
   border-color: var(--green);
   color: var(--blue);
+  border-width: 1px;
 }
 
 li {
@@ -225,11 +234,14 @@ li {
   border-radius: 15px;
   border-color: lightgrey;
   padding: 10px;
+  background-color: white;
+  border-width: 0.5px;
 }
 
 .experience:hover {
   border-color: var(--green);
   color: var(--blue);
+  border-width: 1px;
 }
 
 .experience p {

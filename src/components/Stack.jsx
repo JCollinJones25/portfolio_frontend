@@ -7,8 +7,10 @@ const Stack = () => {
                 <hr></hr>
                 <li>HTML</li>
                 <li>CSS</li>
+                <li>CSS Flexbox</li>
                 <li>JavaScript</li>
                 <li>React</li>
+                <li>Responsive Design</li>
             </div>
             <div className="technologies">
                 <h3>Backend</h3>
