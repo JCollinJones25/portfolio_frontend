@@ -8,7 +8,7 @@ function Footer (props) {
           <img className="linkedin" src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-1-logo-svg-vector.svg" alt="linkedin logo"/>
         </a>
         <a href="mailto:jamescollin.jones.jcj@gmail.com" target="_blank" rel="noopener noreferrer">
-          <img className="email" src="https://www.clipartmax.com/png/middle/253-2536009_wap-black-and-white-comments-white-email-symbol-transparent.png" alt="email"/>
+          <img className="email" src="https://i.dlpng.com/static/png/6607413_preview.png" alt="email"/>
         </a>
       </footer>
     )

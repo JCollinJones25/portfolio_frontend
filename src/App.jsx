@@ -11,7 +11,9 @@ function App() {
     <div className="App">
       <About URL={URL}/>
       <h2>Projects</h2>
-      <Projects URL={URL}/>
+      <div className='projects'>
+        <Projects URL={URL}/>
+      </div>
       <Footer />
     </div>
   );

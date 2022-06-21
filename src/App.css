@@ -1,18 +1,27 @@
 .App {
   text-align: center;
+  background-color: #f1f1f1
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 95%;
+
 }
 
 .project {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 300px;
-}
-
-.projects-container {
-  display: flex;
-  flex-direction: row;
-  width: 90%;
+  width: 400px;
+  height: auto;
+  margin: 10px;
+  border: solid;
+  border-radius: 15px;
+  border-color: lightgrey;
+  padding: 5px;
 }
 
 .proj-img-container {
@@ -21,8 +30,6 @@
   align-items: center;
   width: 315px;
   height: 200px;
-  border-radius: 15px;
-  border-color: lightgrey;
 }
 
 .proj-img1 {
@@ -90,7 +97,7 @@
   height: 50px;
   border-top: solid;
   border-color: lightgrey;
-  background-color: #f1f1f1;
+  background-color: #82FA9A;
   border-width: 1px;
 }
 

@@ -16,7 +16,7 @@ function Projects(props) {
 
   const loaded = () => {
     return projects.map((project) => (
-      <div className='projects'>
+      <div className='project'>
         <h3>{project.name}</h3>
         <div className='proj-img-container'>
             <img className="proj-img1" src={project.image1} alt={project.name}/>
