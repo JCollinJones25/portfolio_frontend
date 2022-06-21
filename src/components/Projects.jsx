@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-function Projects(props) {
+const Projects = (props) => {
 
   const [projects, setProjects] = useState(null)
 

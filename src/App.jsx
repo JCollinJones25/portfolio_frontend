@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import About from "./components/About";
 
-function App() {
+const App = () => {
 
   const URL = 'https://collins-portfolio-spring2022.herokuapp.com/'
 

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
+import Links from "./Links"
 
-function About(props) {
+const About = (props) => {
 
   const [about, setAbout] = useState(null);
 
@@ -17,18 +18,10 @@ function About(props) {
 
   const loaded = () => {
     return (
-      <div>
+      <div className="about">
         <img className="headshot" src="../images/headshot2.jpeg" alt='headshot'/>
         <h2>{about.name}</h2>
-        <a href="https://github.com/JCollinJones25/disclose" target="_blank" rel="noopener noreferrer">
-          <img className="github" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="github logo"/>
-        </a>
-        <a href="https://www.linkedin.com/in/j-collin-jones/" target="_blank" rel="noopener noreferrer">
-          <img className="linkedin" src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-1-logo-svg-vector.svg" alt="linkedin logo"/>
-        </a>
-        <a href="mailto:jamescollin.jones.jcj@gmail.com" target="_blank" rel="noopener noreferrer">
-          <img className="email" src="https://i.dlpng.com/static/png/6607413_preview.png" alt="email"/>
-        </a>
+        <Links />
         <p>{about.bio}</p>
       </div>
     );
