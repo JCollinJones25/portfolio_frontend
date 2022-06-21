@@ -1,7 +1,8 @@
 import './App.css';
-import Footer from "./components/Footer";
-import Projects from "./components/Projects";
 import About from "./components/About";
+import Projects from "./components/Projects";
+import Background from "./components/Background"
+import Footer from "./components/Footer";
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
       <div className='projects'>
         <Projects URL={URL}/>
       </div>
+      <Background />
       <Footer />
     </div>
   );
