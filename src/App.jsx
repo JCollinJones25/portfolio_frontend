@@ -15,6 +15,7 @@ const App = () => {
       <div className='projects'>
         <Projects URL={URL}/>
       </div>
+      <h2>What I've Done</h2>
       <Background />
       <Footer />
     </div>

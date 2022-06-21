@@ -20,10 +20,11 @@ html,body
 }
 
 .headshot {
-  width: 175px;
-  height: 200px;
+  width: 185px;
+  height: 205px;
   object-fit: cover;
   border-radius: 25%;
+  margin: auto;
 }
 
 .links {
@@ -204,4 +205,35 @@ button:hover {
 
 .footer .link:hover {
   background-color: var(--blue);
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  max-width: 45%;
+  height: 350px;
+  margin: 10px;
+  border: solid;
+  border-radius: 15px;
+  border-color: lightgrey;
+  padding: 5px;
+}
+
+.experience:hover {
+  border-color: var(--green);
+}
+
+#experience-headshot {
+  margin-top: 10px;
+}
+
+.experience p {
+  margin-top: 10px;
 }
