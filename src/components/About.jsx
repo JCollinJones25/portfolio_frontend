@@ -26,8 +26,14 @@ const About = (props) => {
       </div>
     );
   };
-
-  return about ? loaded() : <h1>Please wait...</h1>;
+  
+  return about ? loaded() : 
+  
+    <div className="about">
+        <img className="headshot" src="../images/headshot4.png" alt='headshot'/>
+    <Links />
+    <h3>Information Loading...</h3>
+      </div>
 }
 
 export default About;

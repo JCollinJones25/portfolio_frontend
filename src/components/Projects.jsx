@@ -39,8 +39,9 @@ const Projects = (props) => {
 
     return projects ? loaded() : 
         <div className='project'>
-            <h1>...</h1>
+            <h3> one sec...</h3>
         </div>
+  
   }
   
   export default Projects;
