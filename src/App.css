@@ -29,7 +29,6 @@ html,body
 
 .links {
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
@@ -258,11 +257,12 @@ li {
 
 .rec {
   width: 65%;
+  max-width: 700px;
   height: auto;
   margin: 15px;
   border-radius: 15px;
   border: solid;
-  border-color: lightgray;
+  border-color: lightgrey;
   border-width: 0.5px;
 }
 
@@ -274,6 +274,7 @@ li {
 .footer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   text-decoration: none;
   color: white;
@@ -281,7 +282,7 @@ li {
   margin-top: 20px;
   padding: 5px;
   width: 100%;
-  height: 75px;
+  height: 275px;
   border-top: solid;
   border-color: lightgrey;
   background-color: var(--green);
@@ -292,11 +293,34 @@ li {
   width: auto;
   height: 25px;
   max-height: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer .link:hover {
   background-color: var(--blue);
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-urls li {
+  text-align: left;
+}
+
+.footer-urls a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-urls a:hover {
+  color: var(--blue);
 }

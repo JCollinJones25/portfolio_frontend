@@ -19,7 +19,7 @@ const App = () => {
       </div>
       <h2>Stack</h2>
       <Stack />
-      <h2>What I've Done</h2>
+      <h2>Accomplishments</h2>
       <Background />
       <h2>Recommendations</h2>
       <Recommendations />
