@@ -13,9 +13,9 @@ const Projects = (props) => {
   useEffect(() => {
     getProjectsData()
   }, [])
-
+  
   const loaded = () => {
-    return projects.map((project) => (
+  return projects.map((project) => (
       <div className='project'>
         <h3>{project.name}</h3>
         <div className='proj-img-container'>
@@ -35,9 +35,12 @@ const Projects = (props) => {
         </div>
       </div>
     ))
-  }
+        }
 
-    return projects ? loaded() : <h1>...</h1>
+    return projects ? loaded() : 
+        <div className='project'>
+            <h1>...</h1>
+        </div>
   }
   
   export default Projects;
