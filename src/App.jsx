@@ -1,6 +1,7 @@
 import './App.css';
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Stack from "./components/Stack"
 import Background from "./components/Background"
 import Footer from "./components/Footer";
 
@@ -15,6 +16,8 @@ const App = () => {
       <div className='projects'>
         <Projects URL={URL}/>
       </div>
+      <h2>Stack</h2>
+      <Stack />
       <h2>What I've Done</h2>
       <Background />
       <Footer />

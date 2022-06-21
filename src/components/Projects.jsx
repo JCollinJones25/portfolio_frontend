@@ -24,6 +24,7 @@ const Projects = (props) => {
             <img className="proj-img3" src={project.image3} alt={project.name}/>
             <img className="proj-img4" src={project.image4} alt={project.name}/>
         </div>
+        <p>{project.technologies}</p>
         <div className='buttons'>
             <a href={project.git} target="_blank" rel="noopener noreferrer">
                 <button>Github</button>

@@ -8,7 +8,7 @@ const Background = () => {
             </div>
             <div className="experience">
                 <img className="headshot" id="experience-headshot" src="../images/police.jpeg" alt="police pic"/>
-                <p>In 2021 I graduated from the Lexington Police Academy ranked top in my class. I went on to work in law enforcement until 2022</p>
+                <p>In 2020 I graduated from the Lexington Police Academy ranked top in my class. I went on to work in law enforcement until 2022</p>
             </div>
         </div>
     )
