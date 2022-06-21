@@ -20,7 +20,7 @@ const About = (props) => {
     return (
       <div className="about">
         <img className="headshot" src="../images/headshot4.png" alt='headshot'/>
-        <h2>{about.name}</h2>
+        <h1>{about.name}</h1>
         <Links />
         <p className="bio">{about.bio}</p>
       </div>
