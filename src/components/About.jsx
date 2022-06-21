@@ -22,7 +22,7 @@ const About = (props) => {
         <img className="headshot" src="../images/headshot2.jpeg" alt='headshot'/>
         <h2>{about.name}</h2>
         <Links />
-        <p>{about.bio}</p>
+        <p className="bio">{about.bio}</p>
       </div>
     );
   };
