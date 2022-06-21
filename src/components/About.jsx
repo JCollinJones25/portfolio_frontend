@@ -18,7 +18,7 @@ function About(props) {
   const loaded = () => {
     return (
       <div>
-        <img className="headshot" src="../images/headshot.jpeg" alt='headshot'/>
+        <img className="headshot" src="../images/headshot2.jpeg" alt='headshot'/>
         <h2>{about.name}</h2>
         <a href="https://github.com/JCollinJones25/disclose" target="_blank" rel="noopener noreferrer">
           <img className="github" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="github logo"/>

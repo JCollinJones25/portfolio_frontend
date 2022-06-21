@@ -15,11 +15,68 @@
   width: 90%;
 }
 
-.proj-img {
-  width: 300px;
+.proj-img-container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  width: 315px;
+  height: 200px;
+  border-radius: 15px;
+  border-color: lightgrey;
+}
+
+.proj-img1 {
+  width: 315px;
   height: 200px;
   object-fit: cover;
+  margin: auto;
+  position: absolute;
+  z-index: 4;
+  animation: xfade 20s -0s infinite;
+  animation-timing-function: ease-in-out;
 }
+
+.proj-img2 {
+  width: 315px;
+  height: 200px;
+  object-fit: cover;
+  margin: auto;
+  position: absolute;
+  z-index: 3;
+  animation: xfade 20s -5s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.proj-img3 {
+  width: 315px;
+  height: 200px;
+  object-fit: cover;
+  margin: auto;
+  position: absolute;
+  z-index: 2;
+  animation: xfade 20s -10s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.proj-img4 {
+  width: 315px;
+  height: 200px;
+  object-fit: cover;
+  margin: auto;
+  position: absolute;
+  z-index: 1;
+  animation: xfade 20s -15s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes xfade {
+  0% {opacity: 0;}
+  20% {opacity: 1;}
+  33% {opacity: 1;}
+  53% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
 
 .footer {
   display: flex;
@@ -46,8 +103,8 @@
 }
 
 .headshot {
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   object-fit: cover;
-  border-radius: 15px;
+  border-radius: 50%;
 }

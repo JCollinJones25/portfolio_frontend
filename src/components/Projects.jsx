@@ -17,8 +17,13 @@ function Projects(props) {
   const loaded = () => {
     return projects.map((project) => (
       <div className='projects'>
-        <h1>{project.name}</h1>
-        <img className="proj-img" src={project.image1} alt={project.name}/>
+        <h3>{project.name}</h3>
+        <div className='proj-img-container'>
+            <img className="proj-img1" src={project.image1} alt={project.name}/>
+            <img className="proj-img2" src={project.image2} alt={project.name}/>
+            <img className="proj-img3" src={project.image3} alt={project.name}/>
+            <img className="proj-img4" src={project.image4} alt={project.name}/>
+        </div>
         <a href={project.git} target="_blank" rel="noopener noreferrer">
           <button>Github</button>
         </a>
