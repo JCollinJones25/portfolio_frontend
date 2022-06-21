@@ -28,12 +28,11 @@ const About = (props) => {
   };
   
   return about ? loaded() : 
-  
     <div className="about">
-        <img className="headshot" src="../images/headshot4.png" alt='headshot'/>
-    <Links />
-    <h3>Information Loading...</h3>
-      </div>
+      <img className="headshot" src="../images/headshot4.png" alt='headshot'/>
+      <Links />
+      <h3>Information Loading...</h3>
+    </div>
 }
 
 export default About;
