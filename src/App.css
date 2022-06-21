@@ -1,5 +1,6 @@
 :root {
   --green: rgb(41, 188, 103);
+  --blue: rgb(51, 101, 239);
 }
 
 html,body
@@ -96,6 +97,7 @@ html,body
   max-width: 90%;
   height: 200px;
   margin: auto;
+  border-radius: 15px;
 }
 
 .proj-img1 {
@@ -107,6 +109,7 @@ html,body
   z-index: 4;
   animation: xfade 20s -0s infinite;
   animation-timing-function: ease-in-out;
+  border-radius: 15px;
 }
 
 .proj-img2 {
@@ -118,6 +121,7 @@ html,body
   z-index: 3;
   animation: xfade 20s -5s infinite;
   animation-timing-function: ease-in-out;
+  border-radius: 15px;
 }
 
 .proj-img3 {
@@ -129,6 +133,7 @@ html,body
   z-index: 2;
   animation: xfade 20s -10s infinite;
   animation-timing-function: ease-in-out;
+  border-radius: 15px;
 }
 
 .proj-img4 {
@@ -140,6 +145,7 @@ html,body
   z-index: 1;
   animation: xfade 20s -15s infinite;
   animation-timing-function: ease-in-out;
+  border-radius: 15px;
 }
 
 @keyframes xfade {
@@ -150,6 +156,26 @@ html,body
   100% {opacity: 0;}
 }
 
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  border-width: 0;
+  background-color: var(--green);
+}
+
+button:hover {
+  background-color: var(--blue);
+  color: white;
+}
 
 .footer {
   display: flex;
@@ -174,4 +200,8 @@ html,body
   margin-left: 10px;
   margin-right: 10px;
   padding: 10px;
+}
+
+.footer .link:hover {
+  background-color: var(--blue);
 }
