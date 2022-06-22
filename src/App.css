@@ -208,6 +208,7 @@ button {
   border-radius: 5px;
   border-width: 0;
   background-color: var(--green);
+  color: black;
 }
 
 button:hover {
@@ -386,10 +387,6 @@ li {
   
   .proj-img4 {
     width: 75%;
-  }
-
-  .project button {
-    color: black;
   }
 
   .stack {
