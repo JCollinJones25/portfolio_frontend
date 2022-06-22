@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import Links from "./Links"
+import Links from "./Links";
+import Resume from "../JCJresume2022.pdf";
 
 const About = (props) => {
 
@@ -22,6 +23,7 @@ const About = (props) => {
         <img className="headshot" src="../images/headshot4.png" alt='headshot'/>
         <h1>{about.name}</h1>
         <Links />
+        <a className="resume" href={Resume} download>Download Resume</a>
         <p className="bio">{about.bio}</p>
       </div>
     );
