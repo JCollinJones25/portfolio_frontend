@@ -388,6 +388,10 @@ li {
     width: 75%;
   }
 
+  .project button {
+    color: black;
+  }
+
   .stack {
     flex-direction: column;
   }
