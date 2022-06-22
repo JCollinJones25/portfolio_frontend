@@ -9,6 +9,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
+    background-color: #f1f1f1;
 }
 
 .App {
@@ -110,7 +111,7 @@ html,body
   flex-direction: column;
   justify-content: center;
   width: 40%;
-  max-width: 45%;
+  /* max-width: 45%; */
   height: auto;
   margin: 10px;
   border: solid;
@@ -347,4 +348,76 @@ li {
 
 .footer-urls a:hover {
   color: var(--blue);
+}
+
+@media only screen and (max-width: 600px) {
+
+  .bio {
+    width: 90%;
+  }
+  
+  .projects {
+    width: 90%;
+    flex-direction: column;
+  }
+  
+  .project {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .proj-img-container {
+    width: 90%;
+  }
+
+  .proj-img1 {
+    width: 75%;
+  }
+  
+  .proj-img2 {
+    width: 75%;
+  }
+  
+  .proj-img3 {
+    width: 75%;
+  }
+  
+  .proj-img4 {
+    width: 75%;
+  }
+
+  .stack {
+    flex-direction: column;
+  }
+
+  .technologies {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .background {
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .experience {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .rec {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
 }
