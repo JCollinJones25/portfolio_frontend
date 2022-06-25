@@ -277,6 +277,33 @@ li {
   margin-top: 10px;
 }
 
+.general-assembly {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  max-width: 600px;
+  height: auto;
+  margin: auto;
+  margin-top: 10px;
+  border: solid;
+  border-radius: 15px;
+  border-color: lightgrey;
+  border-width: 0.5px;
+  padding: 10px;
+  background-color: white;
+}
+
+.general-assembly p {
+  margin-top: 10px;
+}
+
+.general-assembly:hover {
+  border-color: var(--green);
+  color: var(--blue);
+  border-width: 1px;
+}
+
 .recommendations {
   display: flex;
   justify-content: center;
@@ -412,6 +439,10 @@ li {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  .general-assembly {
+    width: 70%;
   }
   
   .rec {
