@@ -277,6 +277,10 @@ li {
   margin-top: 10px;
 }
 
+span {
+  color: var(--blue);
+}
+
 .general-assembly {
   display: flex;
   flex-direction: column;
