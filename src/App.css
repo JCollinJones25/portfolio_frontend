@@ -449,6 +449,10 @@ span {
     width: 70%;
     height: auto;
   }
+
+  .general-assembly img {
+    height: auto;
+  }
   
   .rec {
     width: 95%;
