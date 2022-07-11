@@ -298,6 +298,12 @@ span {
   background-color: white;
 }
 
+.general-assembly img {
+  width: 90%;
+  height: auto;
+  align-self: center;
+}
+
 .general-assembly p {
   margin-top: 10px;
 }
@@ -446,11 +452,11 @@ span {
   }
 
   .general-assembly {
-    width: 70%;
-    height: auto;
+    width: 85%;
   }
 
   .general-assembly img {
+    width: 95%;
     height: auto;
   }
   
