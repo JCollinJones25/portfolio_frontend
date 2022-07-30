@@ -11,6 +11,7 @@ const Stack = () => {
                 <li>JavaScript</li>
                 <li>React</li>
                 <li>Responsive Design</li>
+                <li>Bootstrap</li>
             </div>
             <div className="technologies">
                 <h3>Backend</h3>
