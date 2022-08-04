@@ -16,7 +16,7 @@ html,body
 
 .App {
   text-align: center;
-  background-color: var(--back);
+  background-image: url(../public/images/background.png);
   padding-top: 20px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
