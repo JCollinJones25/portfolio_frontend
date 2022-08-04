@@ -1,6 +1,6 @@
 :root {
   --green: #45c178;
-  --faded-blue: #3365ef4d;
+  --faded-blue: rgba(51, 101, 239, 0.1);
   --blue: #3365ef;
   --back: #f5f5f5;
 }
