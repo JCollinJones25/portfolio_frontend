@@ -35,11 +35,16 @@ const About = (props) => {
   };
   
   return about ? loaded() : 
-    <div className="loading">
+  <div className="loading">
+    <div className="profile">
       <img className="headshot" src="../images/headshot4.png" alt='headshot'/>
       <Links />
-      <h3>Loading...</h3>
+      <a className="resume" href={Resume} download>Download Resume</a>
     </div>
+  <div className="bio">
+    <h3>Loading...</h3>
+  </div>
+</div>
 }
 
 export default About;

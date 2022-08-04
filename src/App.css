@@ -94,9 +94,18 @@ h1 {
   justify-content: center;
 }
 
+.loading {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .bio {
   display: flex;
-  /* align-items: center; */
   flex-direction: column;
   justify-content: left;
   text-align: left;
@@ -406,19 +415,17 @@ span {
   .about {
     flex-direction: column;
   }
+  
+  .loading {
+    flex-direction: column;
+  }
 
   .bio {
-    border: solid;
-    border-radius: 15px;
-    border-color: lightgrey;
-    background-color: white;
-    border-width: 0.5px;
     width: 80%;
     padding: 20px;
     margin: auto;
     margin-top: 10px;
   }
-
 }
 
 
@@ -500,5 +507,4 @@ span {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-
 }
