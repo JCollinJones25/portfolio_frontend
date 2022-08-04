@@ -1,5 +1,6 @@
 :root {
   --green: #45c178;
+  --faded-blue: #3365ef4d;
   --blue: #3365ef;
   --back: #f5f5f5;
 }
@@ -29,6 +30,11 @@ html,body
   margin: auto;
 }
 
+.profile {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .links {
   display: flex;
@@ -62,40 +68,47 @@ html,body
   color: white;
   text-decoration: none;
   border-radius: 15px;
+  border: 1px solid transparent;
 }
 
 .resume:hover {
-  color: var(--blue);
-  background-color: white;
+  color: black;
+  background-color: var(--faded-blue);
   border: solid;
-  border-width: 0.5px;
+  border-width: 1px;
   border-radius: 15px;
-  border-color: var(--green);
+  border-color: var(--blue);
 }
 
 .about {
   width: 80%;
   height: auto;
   margin: auto;
+  margin-top: 25px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
 
 .bio {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  max-width: 700px;
+  height: auto;
+  margin: 50px;
+  margin-right: 0;
+  padding: 40px;
+  font-size: 20px;
   border: solid;
   border-radius: 15px;
   border-color: lightgrey;
-  padding: 20px;
-  font-size: 20px;
   background-color: white;
   border-width: 0.5px;
 }
 
 .bio:hover {
-  border-color: var(--green);
-  color: var(--blue);
-  border-width: 1px;
+  border-color: var(--blue);
 }
 
 .projects {
@@ -114,7 +127,7 @@ html,body
   width: 40%;
   height: auto;
   margin: 10px;
-  border: solid;
+  border: solid transparent;
   border-radius: 15px;
   border-color: lightgrey;
   padding: 5px;
@@ -123,9 +136,7 @@ html,body
 }
 
 .project:hover {
-  border-color: var(--green);
-  color: var(--blue);
-  border-width: 1px;
+  border-color: var(--blue);
 }
 
 .proj-img-container {
@@ -236,9 +247,7 @@ button:hover {
 }
 
 .technologies:hover {
-  border-color: var(--green);
-  color: var(--blue);
-  border-width: 1px;
+  border-color: var(--blue);
 }
 
 li {
@@ -259,7 +268,7 @@ li {
   max-width: 400px;
   height: 350px;
   margin: 10px;
-  border: solid;
+  border: solid transparent;
   border-radius: 15px;
   border-color: lightgrey;
   border-width: 0.5px;
@@ -268,9 +277,7 @@ li {
 }
 
 .experience:hover {
-  border-color: var(--green);
-  color: var(--blue);
-  border-width: 1px;
+  border-color: var(--blue);
 }
 
 .experience p {
@@ -278,7 +285,8 @@ li {
 }
 
 span {
-  color: var(--blue);
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
 }
 
 .general-assembly {
@@ -309,9 +317,7 @@ span {
 }
 
 .general-assembly:hover {
-  border-color: var(--green);
-  color: var(--blue);
-  border-width: 1px;
+  border-color: var(--blue);
 }
 
 .recommendations {
@@ -334,8 +340,7 @@ span {
 }
 
 .rec:hover {
-  border-color: var(--green);
-  border-width: 1px;
+  border-color: var(--blue);
 }
 
 .footer {
@@ -387,6 +392,28 @@ span {
 .footer-urls a:hover {
   color: var(--blue);
 }
+
+
+@media only screen and (max-width: 750px) {
+
+  .about {
+    flex-direction: column;
+  }
+
+  .bio {
+    border: solid;
+    border-radius: 15px;
+    border-color: lightgrey;
+    background-color: white;
+    border-width: 0.5px;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+}
+
 
 @media only screen and (max-width: 600px) {
 

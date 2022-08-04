@@ -20,10 +20,12 @@ const About = (props) => {
   const loaded = () => {
     return (
       <div className="about">
-        <img className="headshot" src="../images/headshot4.png" alt='headshot'/>
-        <h1>{about.name}</h1>
-        <Links />
-        <a className="resume" href={Resume} download>Download Resume</a>
+        <div className="profile">
+          <img className="headshot" src="../images/headshot4.png" alt='headshot'/>
+          <h1>{about.name}</h1>
+          <Links />
+          <a className="resume" href={Resume} download>Download Resume</a>
+        </div>
         <p className="bio">{about.bio}</p>
       </div>
     );
