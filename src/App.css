@@ -14,9 +14,13 @@ html,body
     background-color: var(--back);
 }
 
+h1 {
+  background-color: var(--back);
+}
+
 .App {
   text-align: center;
-  background-image: url(../public/images/background.png);
+  background-image: url(../public/images/back.png);
   padding-top: 20px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -92,15 +96,18 @@ html,body
 
 .bio {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
   width: 60%;
   max-width: 700px;
   height: auto;
   margin: 50px;
   margin-right: 0;
   padding: 40px;
-  font-size: 20px;
-  border: solid;
+  font-size: 17px;
+  border: solid transparent;
   border-radius: 15px;
   border-color: lightgrey;
   background-color: white;

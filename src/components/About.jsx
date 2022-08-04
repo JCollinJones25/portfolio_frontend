@@ -26,16 +26,19 @@ const About = (props) => {
           <Links />
           <a className="resume" href={Resume} download>Download Resume</a>
         </div>
-        <p className="bio">{about.bio}</p>
+        <div className="bio">
+          <h4>Full Stack Junior Developer | Columbus, Ohio | Remote</h4>
+          <p>{about.bio}</p>
+          </div>
       </div>
     );
   };
   
   return about ? loaded() : 
-    <div className="about">
+    <div className="loading">
       <img className="headshot" src="../images/headshot4.png" alt='headshot'/>
       <Links />
-      <h3>Information Loading...</h3>
+      <h3>Loading...</h3>
     </div>
 }
 
