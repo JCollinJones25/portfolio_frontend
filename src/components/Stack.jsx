@@ -16,7 +16,7 @@ const Stack = () => {
                 <h3>Backend</h3>
                 <hr></hr>
                 <li>MongoDB</li>
-                <li>Express</li>
+                <li>Express.js</li>
                 <li>Node.js</li>
                 <li>PostgreSQL</li>
                 <li>Django</li>
