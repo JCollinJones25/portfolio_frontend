@@ -5,11 +5,11 @@ const Stack = () => {
             <div className="technologies">
                 <h3>Frontend</h3>                
                 <hr></hr>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>CSS Flexbox</li>
                 <li>JavaScript</li>
                 <li>React</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Flexbox</li>
                 <li>Responsive Design</li>
             </div>
             <div className="technologies">
