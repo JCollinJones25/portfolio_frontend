@@ -27,10 +27,10 @@ const Projects = (props) => {
         <p>{project.technologies}</p>
         <div className='buttons'>
             <a href={project.git} target="_blank" rel="noopener noreferrer">
-                <button>Github</button>
+                <button id="git">Github</button>
             </a>
             <a href={project.live} target="_blank" rel="noopener noreferrer">
-                <button>Live Site</button>
+                <button id="live">Live Site</button>
             </a>
         </div>
       </div>
