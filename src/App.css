@@ -1,6 +1,6 @@
 :root {
   --green: #45c178;
-  --faded-green: rgb(69, 193, 120, 0.1);
+  --faded-green: #45c1781a;
   --faded-blue: #3365ef1a;
   --blue: #3365ef;
   --back: #f5f5f5;
@@ -89,7 +89,7 @@ h1 {
   width: 80%;
   height: auto;
   margin: auto;
-  margin-top: 25px;
+  margin-top: 45px;
   display: flex;
   flex-direction: row;
   justify-content: center;
