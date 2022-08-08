@@ -51,9 +51,6 @@ h1, h2 {
 .links {
   display: flex;
   justify-content: center;
-  background-color: var(--back);
-  width: 250px;
-  margin: auto;
 }
 
 .link {
