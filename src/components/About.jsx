@@ -37,7 +37,7 @@ const About = (props) => {
   return about ? loaded() : 
   <div className="loading">
     <div className="profile">
-      <img className="headshot" src="../images/headshot4.png" alt='headshot'/>
+      <img className="headshot" src="../images/headshot.png" alt='headshot'/>
       <Links />
       <a className="resume" href={Resume} download>Download Resume</a>
     </div>
