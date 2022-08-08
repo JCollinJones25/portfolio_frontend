@@ -21,7 +21,7 @@ h1 {
 
 .App {
   text-align: center;
-  background-image: url(../public/images/back.png);
+  background-image: url(../public/images/background.png);
   background-attachment: fixed;
   padding-top: 20px;
   font-family: 'Raleway', sans-serif;
