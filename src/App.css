@@ -15,8 +15,14 @@ html,body
     background-color: var(--back);
 }
 
-h1 {
+h1, h2 {
+  display: flex;
+  justify-content: center;
   background-color: var(--back);
+  width: 250px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .App {
@@ -45,6 +51,9 @@ h1 {
 .links {
   display: flex;
   justify-content: center;
+  background-color: var(--back);
+  width: 250px;
+  margin: auto;
 }
 
 .link {
