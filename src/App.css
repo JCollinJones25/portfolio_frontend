@@ -27,7 +27,7 @@ h1, h2 {
 
 .App {
   text-align: center;
-  background-image: url(../public/images/back.png);
+  background-image: url(../public/images/back3.png);
   background-attachment: fixed;
   padding-top: 20px;
   font-family: 'Raleway', sans-serif;
@@ -455,7 +455,7 @@ span {
 @media only screen and (max-width: 600px) {
 
   .bio {
-    width: 90%;
+    width: 85%;
   }
   
   .projects {
