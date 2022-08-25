@@ -42,9 +42,9 @@ const About = (props) => {
       <a className="resume" href={Resume} download>Download Resume</a>
     </div>
   <div className="bio">
-    <h3>Loading...</h3>
+      <div className="spinner"></div>
+    </div>
   </div>
-</div>
 }
 
 export default About;
