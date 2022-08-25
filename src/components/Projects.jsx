@@ -39,7 +39,7 @@ const Projects = (props) => {
   return projects ? (
     loaded()
   ) : (
-    <div className="project">
+    <div className="loading-project">
       <div className="loading">
         <div className="spinner"></div>
       </div>
