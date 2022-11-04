@@ -23,7 +23,7 @@ const About = (props) => {
             className="headshot"
             src="../images/headshot.png"
             alt="headshot"
-          />
+            />
           <h1>{about.name}</h1>
           <Links />
           <a className="resume" href={Resume} download>
