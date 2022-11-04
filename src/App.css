@@ -97,6 +97,7 @@ h1, h2 {
   height: auto;
   margin: auto;
   margin-top: 45px;
+  margin-bottom: 35px;
   display: flex;
   justify-content: space-around;
   align-items: center;
