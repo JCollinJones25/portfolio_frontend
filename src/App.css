@@ -1,7 +1,7 @@
 :root {
   --green: #45c178;
   --faded-green: #45c1781a;
-  --faded-blue: #3365ef1a;
+  --faded-blue: rgba(51, 101, 239, 0.2);
   --blue: #3365ef;
   --back: #f5f5f5;
 }
@@ -18,7 +18,6 @@ html,body
 h1, h2 {
   display: flex;
   justify-content: center;
-  background-color: var(--back);
   width: 250px;
   margin: auto;
   margin-top: 20px;
@@ -27,7 +26,8 @@ h1, h2 {
 
 .App {
   text-align: center;
-  background-image: url(../public/images/back.png);
+  background-image: url(../public/images/background.png);
+  background-position: right;
   background-attachment: fixed;
   padding-top: 20px;
   font-family: 'Raleway', sans-serif;
@@ -60,10 +60,12 @@ h1, h2 {
   width: 55px;
   height: 40px;
   margin: 10px;
+  border: 0.5px solid transparent;
 }
 
 .link:hover {
-  background-color: var(--green);
+  background-color: var(--faded-blue);
+  border: 0.5px solid var(--blue);
   border-radius: 5px;
 }
 
@@ -299,24 +301,19 @@ button {
 }
 
 #git {
-  background-color: var(--blue);
+  background-color: black;
   color: white;
 }
 
 #live {
-  background-color: var(--green);
-  color: black;
+  background-color: var(--blue);
+  color: white;
 }
 
-#git:hover {
+#git:hover, #live:hover {
   background-color: var(--faded-blue);
   color: black;
   border-color: var(--blue);
-}
-
-#live:hover {
-  background-color: var(--faded-green);
-  border-color: var(--green);
 }
 
 .stack {
@@ -447,9 +444,7 @@ span {
   padding: 5px;
   width: 100%;
   height: 275px;
-  border-top: solid;
-  border-color: lightgrey;
-  background-color: var(--green);
+  background-color: var(--blue);
   border-width: 1px;
 }
 
@@ -465,7 +460,7 @@ span {
 }
 
 .footer .link:hover {
-  background-color: var(--blue);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-links {
@@ -482,7 +477,7 @@ span {
 }
 
 .footer-urls a:hover {
-  color: var(--blue);
+  color: black;
 }
 
 
