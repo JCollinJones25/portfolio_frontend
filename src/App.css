@@ -26,8 +26,7 @@ h1, h2 {
 
 .App {
   text-align: center;
-  background-image: url(../public/images/back6.png);
-  background-repeat: no-repeat;
+  background-image: url(../public/images/background.png);
   background-position: right;
   background-attachment: fixed;
   padding-top: 20px;
