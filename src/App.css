@@ -524,12 +524,12 @@ span {
     max-width: 90%;
     margin: auto;
   }
-
+  
   .projects {
     width: 90%;
     flex-direction: column;
   }
-
+  
   .project {
     width: 90%;
     margin: auto;
@@ -540,8 +540,6 @@ span {
   .loading-project {
     width: 90%;
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
   }
 
   .proj-img-container {
