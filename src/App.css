@@ -13,6 +13,9 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: var(--back);
+}
+
+#root {
   overflow-x: hidden;
 }
 
@@ -228,7 +231,6 @@ h2 {
   height: 200px;
   margin: auto;
   border-radius: 15px;
-  position: relative;
 }
 
 .proj-img1 {
@@ -517,6 +519,10 @@ span {
   .bio {
     width: 85%;
   }
+  
+  .loading-bio {
+    width: 85%;
+  }
 
   .projects {
     width: 90%;
@@ -524,6 +530,13 @@ span {
   }
 
   .project {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .loading-project {
     width: 90%;
     margin: auto;
     margin-top: 10px;
