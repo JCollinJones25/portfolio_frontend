@@ -51,7 +51,6 @@ h2 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  min-width: auto;
 }
 
 .links {
@@ -499,7 +498,7 @@ span {
   color: black;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
   .about {
     flex-direction: column;
   }
