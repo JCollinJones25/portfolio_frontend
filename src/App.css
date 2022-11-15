@@ -521,7 +521,8 @@ span {
   }
   
   .loading-bio {
-    max-width: 85%;
+    max-width: 90%;
+    margin: auto;
   }
 
   .projects {
