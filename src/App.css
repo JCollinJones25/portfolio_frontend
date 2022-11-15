@@ -522,6 +522,7 @@ span {
   
   .loading-bio {
     width: 85%;
+    margin: auto;
   }
 
   .projects {
