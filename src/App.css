@@ -6,16 +6,18 @@
   --back: #f5f5f5;
 }
 
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    background-color: var(--back);
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--back);
+  overflow-x: hidden;
 }
 
-h1, h2 {
+h1,
+h2 {
   display: flex;
   justify-content: center;
   width: 250px;
@@ -30,7 +32,7 @@ h1, h2 {
   background-position: right;
   background-attachment: fixed;
   padding-top: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
 
@@ -130,10 +132,10 @@ h1, h2 {
 
 @keyframes spin-anim {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -219,13 +221,14 @@ h1, h2 {
 }
 
 .proj-img-container {
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   max-width: 90%;
   height: 200px;
   margin: auto;
   border-radius: 15px;
+  position: relative;
 }
 
 .proj-img1 {
@@ -277,11 +280,21 @@ h1, h2 {
 }
 
 @keyframes xfade {
-  0% {opacity: 0;}
-  20% {opacity: 1;}
-  33% {opacity: 1;}
-  53% {opacity: 0;}
-  100% {opacity: 0;}
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+  }
+  53% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .buttons {
@@ -310,7 +323,8 @@ button {
   color: white;
 }
 
-#git:hover, #live:hover {
+#git:hover,
+#live:hover {
   background-color: var(--faded-blue);
   color: black;
   border-color: var(--blue);
@@ -448,7 +462,9 @@ span {
   border-width: 1px;
 }
 
-.github, .linkedin, .email {
+.github,
+.linkedin,
+.email {
   width: auto;
   height: 25px;
   max-height: 25px;
@@ -480,13 +496,11 @@ span {
   color: black;
 }
 
-
 @media only screen and (max-width: 750px) {
-
   .about {
     flex-direction: column;
   }
-  
+
   .loading {
     flex-direction: column;
   }
@@ -499,18 +513,16 @@ span {
   }
 }
 
-
 @media only screen and (max-width: 950px) {
-
   .bio {
     width: 85%;
   }
-  
+
   .projects {
     width: 90%;
     flex-direction: column;
   }
-  
+
   .project {
     width: 90%;
     margin: auto;
@@ -525,15 +537,15 @@ span {
   .proj-img1 {
     width: 75%;
   }
-  
+
   .proj-img2 {
     width: 75%;
   }
-  
+
   .proj-img3 {
     width: 75%;
   }
-  
+
   .proj-img4 {
     width: 75%;
   }
@@ -549,12 +561,12 @@ span {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  
+
   .background {
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .experience {
     width: 85%;
     height: auto;
@@ -571,7 +583,7 @@ span {
     width: 95%;
     height: auto;
   }
-  
+
   .rec {
     width: 95%;
     margin: auto;
