@@ -8,7 +8,7 @@ const Stack = () => {
                 <li>React</li>
                 <li>JavaScript</li>
                 <li>HTML</li>
-                <li>CSS / Flexbox / Sass</li>
+                <li>CSS / Sass</li>
                 <li>Bootstrap</li>
                 <li>Responsive Design</li>
             </div>
