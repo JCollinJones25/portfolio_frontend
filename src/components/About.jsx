@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Links from "./Links";
-import Resume from "../JCJ-Resume-2023.pdf";
+import Resume from "../JCollinJones_Resume_2023.pdf";
 
 const About = (props) => {
   const [about, setAbout] = useState(null);
