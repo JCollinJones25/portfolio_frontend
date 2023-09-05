@@ -7,7 +7,7 @@ import Recommendations from "./components/Recommendations";
 import Footer from "./components/Footer";
 
 const App = () => {
-  const URL = "https://collins-portfolio-spring2022.herokuapp.com/";
+  const URL = "https://collins-portfolio-spring2022.fly.dev/";
 
   return (
     <div className="App">
