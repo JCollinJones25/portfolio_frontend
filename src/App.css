@@ -206,7 +206,7 @@ h2 {
 
 #added-text {
   background-color: rgb(227, 69, 69, 0.3);
-  border: solid red;
+  border: 0.5px solid red;
   border-radius: 10px;
   margin: 15px;
   padding: 10px;
