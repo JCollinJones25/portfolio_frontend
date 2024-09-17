@@ -40,6 +40,11 @@ const Projects = (props) => {
     loaded()
   ) : (
     <div className="loading-project">
+      <div id="added-text">
+        <p>
+        Projects are no longer live due to the increased cost of hosting, please visit GitHub for code, wireframes, and screenshots. Thanks.
+        </p>
+      </div>
       <div className="loading">
         <div className="spinner"></div>
       </div>

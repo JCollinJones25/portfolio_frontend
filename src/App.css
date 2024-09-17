@@ -141,13 +141,11 @@ h2 {
 }
 
 .loading-bio {
-  display: flex;
   justify-content: center;
   width: 60%;
   max-width: 700px;
   height: auto;
   min-height: 200px;
-  max-height: 250px;
   padding: 40px;
   font-size: 17px;
   border: solid transparent;
@@ -155,6 +153,10 @@ h2 {
   border-color: lightgrey;
   background-color: white;
   border-width: 0.5px;
+}
+
+.loading-bio h2 {
+  width: 100%;
 }
 
 .bio {
@@ -189,7 +191,6 @@ h2 {
 }
 
 .loading-project {
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 40%;
@@ -201,6 +202,14 @@ h2 {
   padding: 25px;
   background-color: white;
   border-width: 0.5px;
+}
+
+#added-text {
+  background-color: rgb(227, 69, 69, 0.3);
+  border: solid red;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px;
 }
 
 .project {

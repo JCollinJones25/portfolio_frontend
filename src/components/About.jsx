@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Links from "./Links";
-import Resume from "../JCollinJones_Resume_2023.pdf";
+import Resume from "../JCJ-Resume-2025.pdf";
 
 const About = (props) => {
   const [about, setAbout] = useState(null);
@@ -51,7 +51,14 @@ const About = (props) => {
         </a>
       </div>
       <div className="loading-bio">
-        <div className="spinner"></div>
+        {/* <div className="spinner"></div> */}
+        <h2>
+        Technical Support, Web Development
+        </h2>
+        <p>
+        Technical Support Specialist working in marketing. Using Google Analytics to provide event reporting and analysis, using platforms such as Facebook and Google to create marketing campaigns, integrating data from third party vendors, and troubleshooting client accounts using tools such as SQL and REST API. Eager to learn more about web development using frontend technologies and CMS software.
+
+        </p>
       </div>
     </div>
   );
